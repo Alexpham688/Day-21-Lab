@@ -1,3 +1,4 @@
+
 var app = angular.module('comboApp');
 
 app.controller('pinCtrl');
@@ -10,3 +11,4 @@ $http({method: 'GET',
 }).then(function successfullCallback(response) {
            console.log(response);
        });
+

@@ -20,6 +20,7 @@ var app = angular.module('comboApp');
 
             console.log(posts);
             console.log(response);
+               console.log("working");
         }, function(error) {
             console.log(error);
         });

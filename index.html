@@ -6,15 +6,20 @@
 </head>
 
 <body ng-app="comboApp" ng-controller="labCtrl">
-
-    <a href="#!/pin">link</a><button type="button"></button>
-    <a href="#!/lab">link</a><button type="button"></button>
-
-    <ng-view></ng-view>
+    
+    <div class="header">
+        <a href="#!/pin">Lab 1</a>
+        <a href="#!/lab">Lab 2</a>
+    </div>
+    
+    <div>
+        <ng-view></ng-view>
+    </div>
 
 
 <script src="lib/angular.min.js"></script>
 <script src="lib/angular-route.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>    -->
 <script src="script.js"></script>
 <script src="pinService.js"></script>    
 <script src="labService.js"></script>    

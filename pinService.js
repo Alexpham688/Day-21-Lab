@@ -1,9 +1,9 @@
-var app = angular.module('comboApp');    
+var app = angular.module('comboApp');
 
     app.factory('pinFactory', function($http) {
-        
+
     var posts = [];
-        
+
     return {
        setPosts: function() {
            var promise =
@@ -23,14 +23,13 @@ var app = angular.module('comboApp');
         }, function(error) {
             console.log(error);
         });
-           
            return promise;
        },
-        
-        getPosts: function() {   
+
+        getPosts: function() {
             return posts;
-        }    
-        
-    }    
-  
-});    
+        }
+
+    }
+
+});

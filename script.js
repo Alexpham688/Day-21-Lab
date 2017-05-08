@@ -1,4 +1,4 @@
-var app = angular.module('comboApp', ['ngRoute']);
+var app = angular.module('comboApp', ['ngRoute', 'ngAnimate']);
 
 
 app.config(function($routeProvider) {

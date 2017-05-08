@@ -1,1 +1,5 @@
-<ng-repeat></ng-repeat>
+<div ng-repeat="post in posts">
+    <p>{{post.href}}</p>
+    <p>{{post.name}}</p>
+    <img ng-src='{{post.src}}'/>
+</div>

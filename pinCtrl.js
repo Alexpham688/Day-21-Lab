@@ -8,7 +8,7 @@ app.controller('pinCtrl', function($scope, $http, pinFactory) {
         console.log($scope.posts);
     });
     console.log('test');
-})
+});
 
 app.directive('pintitle', function() {
 
@@ -18,4 +18,4 @@ app.directive('pintitle', function() {
     template: '<h1> Inspired Pinterest Art</h1>'
   }
 
-})
+});

@@ -18,7 +18,7 @@ ng-view {
     background-color: antiquewhite;
     width: 60em;
     height: 80em;
-    
+
 }
 
 .header a {
@@ -30,7 +30,7 @@ ng-view {
 }
 
 .header a, #labview button {
- border-radius: 15px 50px 5px 5px;   
+ border-radius: 15px 50px 5px 5px;
 }
 
 #result {
@@ -45,4 +45,9 @@ ng-view {
 div {
     70em;
     90em;
+}
+p {
+  font-size: 30px;
+  font-family: comic sans ms;
+  color:blue;
 }
